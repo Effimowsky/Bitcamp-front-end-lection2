@@ -102,34 +102,3 @@
 // checkWordInString("Hello, world!", "world");
 // checkWordInString("Hello, world!", "foo");
 // checkWordInString("The quick brown fox", "quick");
-
-// 19.დაწერეთ პროგრამა რომელიც კონსოლში გამოპრინტავს რიცხვებს 0 დან 10 ის ჩათვლით.
-// Print the numbers from 1 to 10 in the console.
-
-// for (let i = 1; i <= 10; i++) {
-//   console.log(i);
-// }
-
-// 20.დაწერეთ პროგრამა, რათა შეამოწმოთ რიცხვი მარტივია თუ არა.
-// Write a program to check if a number is prime or not.
-
-// function isPrime(number) {
-//   if (number <= 1) {
-//     return false;
-//   }
-
-//   for (var i = 2; i <= Math.sqrt(number); i++) {
-//     if (number % i === 0) {
-//       return false;
-//     }
-//   }
-
-//   return true;
-// }
-
-// var number = 7;
-// console.log(`Is ${number} prime? ${isPrime(number)}`);
-// var number = 17;
-// console.log(`Is ${number} prime? ${isPrime(number)}`);
-// var number = 52;
-// console.log(`Is ${number} prime? ${isPrime(number)}`);
